@@ -1,0 +1,309 @@
+{
+  "Entities": [
+    {
+      "Name": "Ground Plane",
+      "Physics": [
+        {
+          "Shape": "Plane",
+          "Position": "0.0f 0.0f 0.0f",
+          "Normal": "0.0f 1.0f 0.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "FlatTerrain",
+          "Texture": "Brass",
+          "Scale": "1.0f"
+        }
+      ]
+    },
+    {
+      "Name": "-X Bound",
+      "Physics": [
+        {
+          "Shape": "Plane",
+          "Position": "-128.0f 0.0f 0.0f",
+          "Normal": "1.0f 0.0f 0.0f"
+        }
+      ]
+    },
+    {
+      "Name": "X Bound",
+      "Physics": [
+        {
+          "Shape": "Plane",
+          "Position": "128.0f 0.0f 0.0f",
+          "Normal": "-1.0f 0.0f 0.0f"
+        }
+      ]
+    },
+    {
+      "Name": "-Z Bound",
+      "Physics": [
+        {
+          "Shape": "Plane",
+          "Position": "0.0f 0.0f -128.0f",
+          "Normal": "0.0f 0.0f 1.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Z Bound",
+      "Physics": [
+        {
+          "Shape": "Plane",
+          "Position": "0.0f 0.0f 128.0f",
+          "Normal": "0.0f 0.0f -1.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Ball Prime",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "0.0f 20.0f 0.0f",
+          "Radius": "5.0f",
+          "Mass": "5.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Steel",
+          "Scale": "5.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Ball 02",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "20.0f 30.0f 20.0f",
+          "Radius": "2.0f",
+          "Mass": "2.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Steel",
+          "Scale": "2.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Ball 03",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "-20.0f 30.0f 20.0f",
+          "Radius": "3.0f",
+          "Mass": "3.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Steel",
+          "Scale": "3.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Ball 04",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "20.0f 30.0f -20.0f",
+          "Radius": "4.0f",
+          "Mass": "4.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Steel",
+          "Scale": "4.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Ball 05",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "-20.0f 30.0f -20.0f",
+          "Radius": "1.0f",
+          "Mass": "1.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Steel",
+          "Scale": "1.0f"
+        }
+      ]
+    },
+    {
+      "Name": "The Big Boy",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "0.0f 80.0f 0.0f",
+          "Radius": "20.0f",
+          "Mass": "25.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Marble",
+          "Scale": "20.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Pizza Ball",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "-75.0f 60.0f -90.0f",
+          "Radius": "10.0f",
+          "Mass": "12.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "TMNT",
+          "Scale": "10.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Tiny Globe",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "100.0f 30.0f 0.0f",
+          "Radius": "13.0f",
+          "Mass": "17.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "TerrainTexture",
+          "Scale": "13.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Brass Ball",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "-100.0f 30.0f 20.0f",
+          "Radius": "15.0f",
+          "Mass": "18.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Brass",
+          "Scale": "15.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Fireball",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "50.0f 20.0f 20.0f",
+          "Radius": "20.0f",
+          "Mass": "5.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Fire",
+          "Scale": "20.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Fireball's Counterpart",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "50.0f 11.0f -20.0f",
+          "Radius": "11.0f",
+          "Mass": "13.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Water",
+          "Scale": "11.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Steel Ball Run",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "98.0f 30.0f -98.0f",
+          "Radius": "30.0f",
+          "Mass": "35.0f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "Steel",
+          "Scale": "30.0f"
+        }
+      ]
+    },
+    {
+      "Name": "Noob Lucker",
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Position": "77.0f 77.0f -77.0f",
+          "Radius": "7.7f",
+          "Mass":  "7.7f"
+        }
+      ],
+      "Graphics": [
+        {
+          "Name": "Ground",
+          "Mesh": "Sphere",
+          "Texture": "TerrainTexture",
+          "Scale": "7.7f"
+        }
+      ]
+    }
+  ]
+}
